@@ -30,6 +30,8 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    // Add this line to include the Netlify CMS plugin
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
