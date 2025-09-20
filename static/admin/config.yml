@@ -3,12 +3,11 @@ backend:
   repo: vibindave/VeritasThorne
   branch: main
   base_url: https://github.com
-  site_domain: vibindave.github.io # This is required for user-page sites
-  auth_provider_url: https://api.netlify.com/auth # This is the Netlify auth service used for the login.
+  site_domain: vibindave.github.io
   # !! Replace YOUR_CLIENT_ID with your actual Client ID from the OAuth app !!
   app_id: Ov23liUTXuaNIMChxi87
 
-local_backend: true # This is good for local development, you can set it to false later
+local_backend: false
 
 media_folder: "static/assets"
 public_folder: "/assets"
