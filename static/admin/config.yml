@@ -1,8 +1,14 @@
 backend:
-  name: git-gateway
-  branch: main # This must be the branch that contains your content
+  name: github
+  repo: vibindave/VeritasThorne
+  branch: main
+  base_url: https://github.com
+  site_domain: vibindave.github.io # This is required for user-page sites
+  auth_provider_url: https://api.netlify.com/auth # This is the Netlify auth service used for the login.
+  # !! Replace YOUR_CLIENT_ID with your actual Client ID from the OAuth app !!
+  app_id: Ov23liUTXuaNIMChxi87
 
-publish_mode: editorial_workflow
+local_backend: true # This is good for local development, you can set it to false later
 
 media_folder: "static/assets"
 public_folder: "/assets"
