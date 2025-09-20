@@ -1,9 +1,12 @@
 backend:
   name: git-gateway
-  branch: main  # or the branch your blog content lives on
+  branch: main   # or 'master' depending on your repo
 
-media_folder: "static/assets"
+media_folder: "static/assets"    # where images get stored in repo
 public_folder: "/assets"
+
+site_url: "https://vibindave.github.io/VeritasThorne"
+display_url: "https://veritasthorne.netlify.app"
 
 collections:
   - name: "blog"
