@@ -1,13 +1,6 @@
 backend:
-  name: github
-  repo: vibindave/VeritasThorne
-  branch: main
-  base_url: https://github.com
-  site_domain: vibindave.github.io
-  # !! Replace YOUR_CLIENT_ID with your actual Client ID from the OAuth app !!
-  app_id: Ov23liUTXuaNIMChxi87
-
-local_backend: false
+  name: git-gateway
+  branch: main  # or the branch your blog content lives on
 
 media_folder: "static/assets"
 public_folder: "/assets"
