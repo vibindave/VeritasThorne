@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/VeritasThrone",
   siteMetadata: {
     title: "Gatsby + Netlify CMS Starter",
     description:
